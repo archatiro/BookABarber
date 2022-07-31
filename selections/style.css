@@ -27,7 +27,7 @@ button, a {
 }
 
 .division {
-  margin-top: 5%;
+  margin-top: 25%;
 }
 
 .division button {
@@ -48,4 +48,27 @@ button:hover {
 
 button {
   border-radius: 5px;
+}
+
+#formh1 {
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+form input {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+form button {
+  margin-left: 25%;
+  margin-right: 25%;
 }
