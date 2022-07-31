@@ -1,0 +1,202 @@
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    transition: 0.6s;
+    padding: 2% 5%;
+    z-index: 10000;
+}
+
+header h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 3.5em;
+    transition: 0.6s;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+header ul li{
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 1.25em
+
+}
+
+#betterdiv {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: url("https://static.wixstatic.com/media/9e06c3_9ea570925d814ce6a42273a2c6cce54e~mv2.jpg/v1/fill/w_646,h_563,fp_0.50_0.50,q_90/9e06c3_9ea570925d814ce6a42273a2c6cce54e~mv2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.betterdivhalf {
+    border-bottom: 5px solid black;
+}
+
+#betterdiv h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#betterbutton {
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.29);
+}
+
+
+#betterbutton a {
+    color: black;
+}
+
+#supremediv {
+    background: url("https://lh3.googleusercontent.com/p/AF1QipO7_hQQL15VABBUBANaDnJo-o9MMVOFrYgysoud=w1080-h608-p-no-v0");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+#supremebutton {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    background: transparent;
+}
+
+#supremeimage {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+#supremebutton a {
+    color: white;
+    border: 2px solid white;
+}
+
+#robertsdiv {
+    background: url("https://lh5.googleusercontent.com/p/AF1QipMU-oCKhubEEGFv4eAtAUpnWte04LA3-QIbVkeu=w408-h544-k-no");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#robertsbutton {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.a {
+    color: black;
+}
+
+
+#robertsimage {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+
+
+#betterimage {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.span {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.29);
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: green;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    header h1 {
+        font-size: 3.1em;
+    }
+    header ul li {
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 427px) {
+    header h1 {
+        font-size: 2.8em;
+    }
+    header ul li {
+        font-size: .76em;
+    }
+}
+
+
+@media screen and (max-width: 426px) and (min-width: 321px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header ul li {
+        font-size: .55em;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 1px) {
+    header h1 {
+        font-size: 1em;
+    }
+
+}

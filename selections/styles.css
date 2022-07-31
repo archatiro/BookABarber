@@ -1,0 +1,72 @@
+body {
+    background: url("https://archziner.com/wp-content/uploads/2021/11/clean-hairbrushes-and-combs-on-pink-background-pattern-wallpaper.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100vw;
+    height: auto;
+
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 4em;
+    background-color:rgba(0, 0, 255, 0.25);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: .9em;
+    min-width: 1%;
+    border: 2px solid black;
+}
+
+.content-table img {
+    width: 15%;
+    padding: 0px;
+    width: 240px;
+    height: 240px;
+}
+
+.content-table thead tr {
+    background-color: skyblue;
+    border: 2px solid black;
+}
+
+.content-table tbody td {
+    border: 2px solid black;
+}
+
+.imageboard {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputs button {
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 5%;
+    font-size: 2em;
+}
+
+.ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
