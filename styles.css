@@ -79,6 +79,7 @@ header ul li{
 
 #betterbutton a {
     color: black;
+    font-size: 2em;
 }
 
 #supremediv {
@@ -99,6 +100,7 @@ header ul li{
     background: transparent;
 }
 
+
 #supremeimage {
     width: 35%;
     display: block;
@@ -111,6 +113,7 @@ header ul li{
 #supremebutton a {
     color: white;
     border: 2px solid white;
+    font-size: 2em;
 }
 
 #robertsdiv {
@@ -128,6 +131,10 @@ header ul li{
     border-radius: 5px;
     background-color: transparent;
     font-weight: bold;
+}
+
+#robertsbutton a {
+    font-size: 2em;
 }
 
 .a {
